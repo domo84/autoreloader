@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const io = require("socket.io")(8010);
 const name = "DAEMON";
 
