@@ -4,7 +4,7 @@
     "autoreloader-daemon": "./bin/daemon.js",
     "autoreloader-nudge": "./bin/nudge.js"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "autoreloader-daemon.js",
   "dependencies": {

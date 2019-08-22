@@ -24,7 +24,7 @@ npx autoreloader-daemon --port 9000
 Nudge the daemon
 
 ```
-npx autoreloader-nudger --port 8000
+npx autoreloader-nudger --port 9000
 ```
 
 *PRO TIP*: Use `inotifywait` for monitoring changes to your generated files.
