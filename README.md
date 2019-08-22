@@ -38,10 +38,10 @@ done
 
 ### Client snippet
 
-Include this code somewhere in your HTML on the website. Also make sure to grab the `[socket.io-client](https://github.com/socketio/socket.io-client)`.
+Include this code somewhere in your HTML on the website. Also make sure to grab the [socket.io-client](https://github.com/socketio/socket.io-client).
 
-```javascript
-<script src="/socket.io/socket.io.js"></script>
+```html
+<script src="/socket.io.js"></script>
 <script>
 const host = "0.0.0.0"; // Matches all the network interfaces
 const port = 9000; // Should match daemon port
