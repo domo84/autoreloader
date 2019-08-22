@@ -43,8 +43,8 @@ Include this code somewhere in your HTML on the website. Also make sure to grab 
 ```html
 <script src="/socket.io.js"></script>
 <script>
-const host = "0.0.0.0"; // Matches all the network interfaces
-const port = 9000; // Should match daemon port
+const host = "0.0.0.0"; // Matches many network interfaces
+const port = 9000; // Must match daemon port
 const socket = io(`http://${host}:${port}`);
 socket.on("connect", function() {
 	console.debug("autoreloader", "connected");
