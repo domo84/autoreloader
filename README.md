@@ -11,7 +11,7 @@ A tool for automating the process of refreshing the webpage you just updated. It
 
 Install the package
 
-``
+```
 npm install autoreloader
 ```
 
@@ -37,6 +37,8 @@ done
 ```
 
 ### Client snippet
+
+Include this code somewhere on your website.
 
 ```javascript
 const host = "0.0.0.0"; // Matches all the network interfaces
