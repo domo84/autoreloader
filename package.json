@@ -1,16 +1,17 @@
 {
-  "name": "autoreload",
+  "name": "autoreloader",
   "bin": {
-    "autoreload-daemon": "./bin/daemon.js",
-    "autoreload-nudge": "./bin/nudge.js"
+    "autoreloader-daemon": "./bin/daemon.js",
+    "autoreloader-nudge": "./bin/nudge.js"
   },
   "version": "1.0.0",
   "description": "",
-  "main": "autoreload-daemon.js",
+  "main": "autoreloader-daemon.js",
   "dependencies": {
     "socket.io": "^2.2.0",
     "socket.io-client": "^2.2.0"
   },
+  "readme": "README.md",
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
