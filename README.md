@@ -5,7 +5,7 @@ A tool for automating the process of refreshing the webpage you just updated. It
 **PARTS:**
 - `daemon`: Starts a websocket server on assigned port.
 - `nudger`: A client that connects to the daemon and sends a reload event.
-- `client` (not supplied): A client that connects to the daemon and listens for a reload event and triggers `location.reload()`. Use code snippet or a browser extension.
+- `client` (not supplied): A client that connects to the daemon and listens for a reload event and triggers `location.reload()`. Use [code snippet](#client-snippet) or a browser extension.
 
 ## Usage
 
