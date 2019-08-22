@@ -2,7 +2,7 @@
   "name": "autoreloader",
   "bin": {
     "autoreloader-daemon": "./bin/daemon.js",
-    "autoreloader-nudge": "./bin/nudge.js"
+    "autoreloader-nudger": "./bin/nudger.js"
   },
   "version": "1.0.2",
   "description": "",
