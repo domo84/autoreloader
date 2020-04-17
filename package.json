@@ -8,7 +8,7 @@
   "description": "",
   "main": "autoreloader-daemon.js",
   "dependencies": {
-    "minimist": "^1.2.0",
+    "minimist": "^1.2.5",
     "socket.io": "^2.2.0",
     "socket.io-client": "^2.2.0"
   },
